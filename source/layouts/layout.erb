@@ -14,10 +14,9 @@
     <%= javascript_include_tag  "modernizr" %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body>
     <%= yield %>
     <%= javascript_include_tag  "all" %>
 
-    <%= partial 'partials/footer' %>
   </body>
 </html>
